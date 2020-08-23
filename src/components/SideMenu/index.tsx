@@ -2,7 +2,7 @@ import React from 'react';
 
 import { CompleteForm} from '../Autocomplete';
 
-const CompleteForm( ) {
+const completeFormElement (  {
     return(
     <div
     className="Sidemenu">
@@ -11,4 +11,7 @@ const CompleteForm( ) {
 
     </div>
     )
+)
 }
+
+export default
