@@ -1,3 +1,4 @@
+/*
 import React from 'react';
 import ReactDOM from 'react-router-dom';
 import { Autocomplete } from 'evergreen-ui'
@@ -35,8 +36,7 @@ export default CompleteForm();
 
 
 
-
-
+*/
 
 
 /*

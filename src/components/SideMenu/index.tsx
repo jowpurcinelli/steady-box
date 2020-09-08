@@ -2,7 +2,7 @@ import React from 'react';
 
 //import { CompleteForm} from '../Autocomplete';
 
-declare Global {
+declare global {
     interface Window {
         toggleActiveMenu:   (() => void  ) | undefined;
     }
@@ -24,10 +24,20 @@ const SideMenu : React.FC = ({ children }) => {
         return ( ) => window.removeEventListener('scroll', onScroll);
     },
         [scrollY]);
+    
+    const classes = [
+        isActive ? 'open' :  ' ' ,
+        scrollY <= scrollThreshol ? 'scrollOpen' :  ' ',   
+    ];
+    const className = classes.join('  ').trim( );
 
+        function toggleActiveMenu( ) {
+            setIsActive((prev) => !prev );
+        }
 
- 
-}
+        window.toggleActiveMenu = toggleActiveMenu;
+        return <Container className={className}>{children}</Container>;
+};
 
 export default SideMenu;
 
