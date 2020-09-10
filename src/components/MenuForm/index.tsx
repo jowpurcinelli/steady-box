@@ -6,7 +6,8 @@ import {
     Container, 
     Navigation, 
     DropboxLogo, 
-    Form } from './styles';
+    Form } 
+    from './styles';
 
 const MenuForm: React.FC = ( ) => {
     function handleToggle( ) {
@@ -31,3 +32,6 @@ const MenuForm: React.FC = ( ) => {
     )
 
 }
+
+
+export default MenuForm;
