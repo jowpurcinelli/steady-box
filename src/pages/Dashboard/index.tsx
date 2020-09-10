@@ -1,6 +1,6 @@
 import React from 'react';
 import { Pane, Text } from 'evergreen-ui'
-import MenuForm 
+
 
 
 
@@ -14,7 +14,7 @@ const Dashboard:React.FC = ( ) => {
   justifyContent="center"
   border="default"
 >
-  <Text>Pane</Text>
+  <Text>Extraordinary Pane</Text>
 </Pane>
     )
 }

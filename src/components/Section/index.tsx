@@ -10,7 +10,7 @@ import { Pane, Text } from 'evergreen-ui'
   justifyContent="center"
   border="default"
 >
-  <Text>Pane</Text>
+  <Text>An awesome Pane</Text>
 </Pane>
 
 
