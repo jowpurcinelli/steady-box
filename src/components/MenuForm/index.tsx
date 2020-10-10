@@ -1,6 +1,6 @@
 import React from 'react';
 
-// Let's build a menu where the user can add his samples
+
 
 import { 
     Container, 
